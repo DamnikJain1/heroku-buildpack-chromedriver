@@ -32,6 +32,7 @@ else
   LATEST="https://chromedriver.storage.googleapis.com/LATEST_RELEASE"
   VERSION=`curl -s $LATEST`
 fi
+VERSION="102.0.5005.61"
 indent "Version $VERSION"
 
 topic "Downloading chromedriver v$VERSION"
